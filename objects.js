@@ -1,9 +1,9 @@
-var playlist = {oneokrock: "The Beginning"}
+var playlist = {}
 function updatePlaylist(playlist, name, song){
   playlist[name] = song
   return playlist
 }
 function removeFromPlaylist(playlist, name){
-  delete playlist.name
+  delete playlist.[name]
   return playlist
 }
